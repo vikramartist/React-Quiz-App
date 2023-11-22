@@ -1,0 +1,249 @@
+{
+  "questions": [
+    {
+      "question": "Which is the most popular JavaScript framework?",
+      "options": ["Angular", "React", "Svelte", "Vue"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "Which company invented React?",
+      "options": ["Google", "Apple", "Netflix", "Facebook"],
+      "correctOption": 3,
+      "points": 10
+    },
+    {
+      "question": "What's the fundamental building block of React apps?",
+      "options": ["Components", "Blocks", "Elements", "Effects"],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "What's the name of the syntax we use to describe the UI in React components?",
+      "options": ["FBJ", "Babel", "JSX", "ES2015"],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "How does data flow naturally in React apps?",
+      "options": [
+        "From parents to children",
+        "From children to parents",
+        "Both ways",
+        "The developers decides"
+      ],
+      "correctOption": 0,
+      "points": 10
+    },
+    {
+      "question": "How to pass data into a child component?",
+      "options": ["State", "Props", "PropTypes", "Parameters"],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "When to use derived state?",
+      "options": [
+        "Whenever the state should not trigger a re-render",
+        "Whenever the state can be synchronized with an effect",
+        "Whenever the state should be accessible to all components",
+        "Whenever the state can be computed from another state variable"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "What triggers a UI re-render in React?",
+      "options": [
+        "Running an effect",
+        "Passing props",
+        "Updating state",
+        "Adding event listeners to DOM elements"
+      ],
+      "correctOption": 2,
+      "points": 20
+    },
+    {
+      "question": "When do we directly \"touch\" the DOM in React?",
+      "options": [
+        "When we need to listen to an event",
+        "When we need to change the UI",
+        "When we need to add styles",
+        "Almost never"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "In what situation do we use a callback to update state?",
+      "options": [
+        "When updating the state will be slow",
+        "When the updated state is very data-intensive",
+        "When the state update should happen faster",
+        "When the new state depends on the previous state"
+      ],
+      "correctOption": 3,
+      "points": 30
+    },
+    {
+      "question": "If we pass a function to useState, when will that function be called?",
+      "options": [
+        "On each re-render",
+        "Each time we update the state",
+        "Only on the initial render",
+        "The first time we update the state"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "Which hook to use for an API request on the component's initial render?",
+      "options": ["useState", "useEffect", "useRef", "useReducer"],
+      "correctOption": 1,
+      "points": 35
+    },
+    {
+      "question": "Which variables should go into the useEffect dependency array?",
+      "options": [
+        "Usually none",
+        "All our state variables",
+        "All state and props referenced in the effect",
+        "All variables needed for clean up"
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "An effect will always run on the initial render.",
+      "options": [
+        "True",
+        "It depends on the dependency array",
+        "False",
+        "In depends on the code in the effect"
+      ],
+      "correctOption": 0,
+      "points": 30
+    },
+    {
+      "question": "When will an effect run if it doesn't have a dependency array?",
+      "options": [
+        "Only when the component mounts",
+        "Only when the component unmounts",
+        "The first time the component re-renders",
+        "Each time the component is re-rendered"
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What is React?",
+      "options": [
+        "A. A JavaScript library for building user interfaces.",
+        "B. A JavaScript framework for building user interfaces.",
+        "C. A programming language for building user interfaces.",
+        "D. A markup language for building user interfaces."
+      ],
+      "correctOption": 0,
+      "points": 40
+    },
+    {
+      "question": "What is the Virtual DOM?",
+      "options": [
+        "A. A lightweight version of the Document Object Model (DOM).",
+        "B. A server-side rendering technique.",
+        "C. A way to optimize the performance of React applications.",
+        "D. A way to represent the state of a React component."
+      ],
+      "correctOption": 2,
+      "points": 40
+    },
+    {
+      "question": "What is JSX?",
+      "options": [
+        "A. A syntax extension for JavaScript.",
+        "B. A templating language for React.",
+        "C. A way to define styles in React.",
+        "D. A way to define routes in React."
+      ],
+      "correctOption": 0,
+      "points": 40
+    },
+    {
+      "question": "What is the difference between props and state?",
+      "options": [
+        "A. Props are immutable, while state is mutable.",
+        "B. Props are used to pass data from parent to child components, while state is used to manage data within a component.",
+        "C. Props are used to manage data within a component, while state is used to pass data from parent to child components.",
+        "D. Props and state are the same thing."
+      ],
+      "correctOption": 1,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the constructor method in a React component?",
+      "options": [
+        "A. To initialize the state of the component.",
+        "B. To define the props of the component.",
+        "C. To render the component.",
+        "D. To define the lifecycle methods of the component."
+      ],
+      "correctOption": 0,
+      "points": 25
+    },
+    {
+      "question": "What is the difference between a functional component and a class component?",
+      "options": [
+        "A. Functional components are stateful, while class components are stateless.",
+        "B. Functional components are used for rendering UI, while class components are used for handling user events.",
+        "C. Functional components are simpler and easier to read, while class components are more complex and harder to read.",
+        "D. Functional components are stateless, while class components are stateful."
+      ],
+      "correctOption": 3,
+      "points": 20
+    },
+    {
+      "question": "What is the purpose of the componentDidMount lifecycle method?",
+      "options": [
+        "A. To update the state of the component.",
+        "B. To render the component.",
+        "C. To perform any necessary setup for the component.",
+        "D. To handle user events."
+      ],
+      "correctOption": 2,
+      "points": 10
+    },
+    {
+      "question": "What is the purpose of the shouldComponentUpdate lifecycle method?",
+      "options": [
+        "A. To update the state of the component.",
+        "B. To render the component.",
+        "C. To determine whether the component should be updated or not.",
+        "D. To handle user events."
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "What is the purpose of the componentDidUpdate lifecycle method?",
+      "options": [
+        "A. To update the state of the component.",
+        "B. To render the component.",
+        "C. To perform any necessary cleanup for the component.",
+        "D. To handle user events."
+      ],
+      "correctOption": 2,
+      "points": 30
+    },
+    {
+      "question": "What is the purpose of the componentWillUnmount lifecycle method?",
+      "options": [
+        "A. To update the state of the component.",
+        "B. To render the component.",
+        "C. To perform any necessary cleanup for the component.",
+        "D. To handle user events."
+      ],
+      "correctOption": 2,
+      "points": 30
+    }
+  ]
+}
