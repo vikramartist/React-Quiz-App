@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .app {
+    @apply w-full h-[100vh] bg-slate-700 flex flex-col justify-center items-center gap-4;
+  }
+  .header {
+    @apply w-[80%] h-[10rem] top-0 p-0;
+  }
+
+  .header-img {
+    @apply w-[10rem] h-[8rem] shadow-sm rounded-md shadow-slate-200;
+  }
+
+  .header-text {
+    @apply text-3xl text-white font-serif;
+  }
+
+  .loader-container {
+    @apply w-full h-full flex justify-center items-center;
+  }
+
+  .main-after {
+    @apply w-[90%] h-[28rem] bg-slate-600 flex flex-col justify-center items-center rounded-lg p-2;
+  }
+
+  .main-before {
+    @apply w-[90%] h-[20rem] flex justify-center items-start rounded-lg gap-2 p-2;
+  }
+
+  .options {
+    @apply w-[90%] h-[80%] gap-3 flex justify-center flex-col items-center text-sm;
+  }
+
+  .btn-option {
+    @apply px-4 py-2 bg-gray-500 rounded-3xl w-[100%] shadow-slate-200 text-left shadow-sm text-white text-lg  hover:translate-x-4 hover:bg-slate-800;
+  }
+
+  .option-select {
+    @apply translate-x-4;
+  }
+}
